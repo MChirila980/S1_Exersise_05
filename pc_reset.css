@@ -6,8 +6,8 @@
    Tutorial Case
    
    Reset Style Sheet for the Pandaisia Chocolates Website
-   Author: 
-   Date:   
+   Author: Melinda Chirila
+   Date:   10/16/2018
    
    Filename: pc_reset.css
 
@@ -65,6 +65,9 @@ ul {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav ul {
