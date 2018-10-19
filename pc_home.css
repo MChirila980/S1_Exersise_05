@@ -29,7 +29,7 @@ body>header>img {
     width: 100%;
 }
 
-body > header > nav.horizontalNavigation li {
+body>header>nav.horizontalNavigation li {
     width: 20%;
 }
 
@@ -39,6 +39,11 @@ nav.horizontalNavigation li {
     float: left;
 }
 
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+
+}
 
 /* Left Column Styles */
 section#leftColumn {
@@ -56,18 +61,18 @@ section#rightColumn {
     width: 67%;
 }
 
-section#rightColumn img{
+section#rightColumn img {
     display: block;
     width: 100%;
 }
 
-section#rightColumn > nav.horizontalNavigation li {
+section#rightColumn>nav.horizontalNavigation li {
     width: 25%;
 }
 
 
 /* Footer Styles */
-footer{
+footer {
     background-color: rgb(71, 52, 29);
     clear: left;
 }
@@ -77,19 +82,18 @@ footer::after {
     clear: both;
     content: "";
     display: table;
+
 }
 
 
 
-footer > nav.verticalNavigation {
+footer>nav.verticalNavigation {
     float: left;
     width: 22%;
 }
 
 
-footer > section#contactInfo {
+footer>section#contactInfo {
     float: left;
     width: 34%;
 }
-
-
